@@ -28,7 +28,7 @@ ses_client = boto3.client("ses", region_name="us-east-1")
 SECRET_NAME = "daily-emailer/api-keys"
 DYNAMODB_TABLE = "daily-emailer-recipients"
 SES_SENDER_NAME = "Daily Emailer"
-SES_SENDER_EMAIL = "your-verified-email@example.com"  # MUST be SES-verified
+SES_SENDER_EMAIL = "dmadera0@gmail.com"  # MUST be SES-verified
 EMAIL_SUBJECT = "☀️ Your Daily Briefing"
 WEATHER_CITY = "Los Angeles"
 
