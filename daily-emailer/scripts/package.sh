@@ -10,7 +10,7 @@ rm -f daily-emailer.zip
 
 echo "→ Installing dependencies into build/..."
 mkdir -p build
-pip install -r lambda/requirements.txt -t build/ --quiet
+pip3 install -r lambda/requirements.txt -t build/ --quiet
 
 echo "→ Copying Lambda source files..."
 cp lambda/*.py build/
