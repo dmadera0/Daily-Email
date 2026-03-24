@@ -16,8 +16,8 @@ TABLE_NAME = "daily-emailer-recipients"
 REGION = "us-east-1"
 
 RECIPIENTS = [
-    {"email": "you@example.com", "name": "Your Name", "active": True},
-    {"email": "friend@example.com", "name": "Friend", "active": True},
+    {"email": "dmadera0@gmail.com", "name": "Daniel", "active": True},
+    {"email": "d.madera@sportradar.com", "name": "Daniel - Work", "active": True},
     # Add more recipients here — set active=False to disable without deleting
 ]
 # ──────────────────────────────────────────────────────────────────────────
